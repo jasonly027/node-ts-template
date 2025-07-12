@@ -1,0 +1,22 @@
+{
+  "name": "node-ts-template",
+  "version": "1.0.0",
+  "description": "",
+  "type": "module",
+  "scripts": {
+    "dev": "tsx --watch --env-file .env src/index.ts",
+    "start": "node --env-file .env dist/index.js",
+    "build": "tsc",
+    "type-check": "tsc --noEmit"
+  },
+  "devDependencies": {
+    "@eslint/js": "^9.31.0",
+    "@tsconfig/node22": "^22.0.2",
+    "@types/node": "^24.0.13",
+    "eslint": "^9.31.0",
+    "prettier": "^3.6.2",
+    "tsx": "^4.20.3",
+    "typescript": "^5.8.3",
+    "typescript-eslint": "^8.36.0"
+  }
+}
